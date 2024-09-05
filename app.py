@@ -52,7 +52,7 @@ st.markdown(html_page_title, unsafe_allow_html=True)
 # )
 
 robo = Image.open("img/robo3.jpg")
-st.sidebar.image(robo,caption="",use_column_width=True)
+st.sidebar.image(robo,caption="",use_column_width=False)
 
 st.sidebar.markdown("# Menu")
 option = st.sidebar.selectbox("Menu", ["CV", 'About'], label_visibility='hidden')
