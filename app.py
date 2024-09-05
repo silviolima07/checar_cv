@@ -8,6 +8,7 @@ from config_llm import llama, mixtral, gemma
 import pdfplumber
 import os
 from config_modelo import selecionar_modelo
+from PIL import Image
 
 
 # Função para ler o PDF e extrair o texto
@@ -49,6 +50,9 @@ st.markdown(html_page_title, unsafe_allow_html=True)
     # process=Process.sequential,  # Processamento sequencial das tarefas
     # verbose=True
 # )
+
+robo = Image.open("img/robo.png")
+st.sidebar.image(robo,caption="",use_column_width=True)
 
 st.sidebar.markdown("# Menu")
 option = st.sidebar.selectbox("Menu", ["CV", 'About'], label_visibility='hidden')
