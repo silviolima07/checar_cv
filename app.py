@@ -51,7 +51,7 @@ st.markdown(html_page_title, unsafe_allow_html=True)
     # verbose=True
 # )
 
-robo = Image.open("img/robo2.png")
+robo = Image.open("img/robo3.jpg")
 st.sidebar.image(robo,caption="",use_column_width=True)
 
 st.sidebar.markdown("# Menu")
