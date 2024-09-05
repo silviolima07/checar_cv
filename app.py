@@ -161,7 +161,6 @@ if option == 'CV':
 
 if option == 'About':
     st.markdown("# About:")
-    st.markdown("### Este projeto apresenta dados de despesas declaradas por partidos e deputados da Câmara de Deputados do Brasil.")
-    st.markdown("### Dados obtidos através de APIs disponibilizados no site da câmara.")
-    st.markdown("### Um modelo llama acessado via Groq, escreveu o código Python com Streamlit.")   
-    st.markdown("### Github: https://github.com/silviolima07/despesas_deputados")    
+    st.markdown("### Este aplicativo faz a leitura de um curriculo em pdf.")
+    st.markdown("### Um agente recrutador faz a leitura e recomenda melhorias.")
+    st.markdown("### Modelos acessados via Groq.")      
