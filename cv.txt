@@ -1,0 +1,45 @@
+• São José dos Campos – SP • (12) 99646-2527
+• silviolima07@gmail.com
+Sílvio César de Lima • https://www.linkedin.com/in/silviocesarlima/
+• GitHub: https://github.com/silviolima07/
+Cientista de Dados
+• Portifólio: https://silviolima07.github.io/
+Resumo
+Cientista de Dados em início de carreira no segmento, presente no mercado de trabalho há +30 anos,
+atuando na área de TI, em empresas de grande e médio porte, além de prestar serviços de forma
+autônoma.
+Ampla vivência em suporte ao cliente, configuração de ambientes Linux e Windows, administração de
+servidores, desenvolvimento de aplicações, extração de dados, entre outras atividades correlatas. Além
+disso, conhecimentos acerca das tecnologias: Python, AWS, Shell Script, Git Action, Web Scrap, Power BI,
+Streamlit e Análise Exploratória.
+Experiência
+Cientista de Dados Pleno – Alelo, 07/2021 - 04/2022
+• Desenvolvimento de análise de dados visando a construção de modelos de machine learning,
+utilizando a plataforma da AWS;
+• Execução de extração de dados de transportadoras no site da internet via Web Scrap visando
+auxiliar um departamento na venda de produtos específicos.
+• Resultados: Aumento na venda de produtos através da classificação dos clientes mais propensos a
+comprar novos produtos. Aumento da lista de clientes para contato, obtidos do web scrap efetuado.
+Com isso aumentou a probabilidade de vendas de produtos deste departamento na Alelo.
+Analista de Dados – GAVB, 04/2021 - 07/2021
+• Extração de dados do BigQuery;
+• Construção de dashboards usando Tableau e Power BI.
+Administrador Unix – IBM Brasil, 09/2014 - 07/2017
+• Configuração e suporte ao ambiente Unix e Linux;
+• Monitoramento e planejamento de atualizações nos servidores ao longo do ano.
+Estagiário – Funcate, 08/2012 – 12/2013
+• Desenvolvimento de aplicações Web Java e PHP.
+Formação Acadêmica
+• Pós-graduação, Gestão De Projetos e Business Intelligence – Universidade de Taubaté, 2018
+• Graduação, Tecnólogo em Banco de Dados – Faculdade de Tecnologia do Estado de São Paulo,
+2013
+Certificações
+• AWS Cloud Practitioner
+• AWS Solutions Architect Associate
+Cursos
+• Machine Learning – Residencia Tecnológica PUC - 2023
+• Introduction to Machine Learning in Production – Coursera, 10/2022
+• Formação Cientista de Dados – Data Science Academy, 01/2020
+• Machine Learning – Data Science Academy, 01/2020
+Idioma
+Inglês – Avançado
