@@ -7,3 +7,4 @@ pdfplumber==0.11.4
 pdfreader==0.1.15
 PyPDF2==3.0.1
 streamlit==1.38.0
+pysqlite3-binary
