@@ -109,7 +109,7 @@ if option == 'CV':
              )
 
 
-            st.markdown("## Modelo: "+ modelo)
+            st.markdown("## Modelo: llama")
         
 
             if st.button("INICIAR"):
