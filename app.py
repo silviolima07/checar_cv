@@ -4,7 +4,7 @@ from crewai import Crew, Process
 from my_agents import criar_agente_recrutador
 from my_tasks import criar_task_analise
 from my_tools import save_uploaded_pdf
-from config_llm import llama, mixtral, gemma
+from config_llm import llama
 import pdfplumber
 import os
 from config_modelo import selecionar_modelo
@@ -76,19 +76,20 @@ if option == 'CV':
         size = len(cargo)
         #st.markdown("### " + cargo)
         
-        if len(cargo)!=0:
-            st.markdown("### Vaga: " + cargo)
+        # if len(cargo)!=0:
+            # st.markdown("### Vaga: " + cargo)
             
         
-            st.markdown("## Selecione um modelo:")
-            opcao = selecionar_modelo()
-            if opcao == 'llama':
-                modelo = llama
-            elif opcao == 'mixtral':
-                modelo = mixtral
-            else:
-                modelo = gemma            
-                        
+            # st.markdown("## Selecione um modelo:")
+            # opcao = selecionar_modelo()
+            # if opcao == 'llama':
+                # modelo = llama
+            # elif opcao == 'mixtral':
+                # modelo = mixtral
+            # else:
+                # modelo = gemma            
+        
+        modelo = llama                
         
         if cargo:
         
@@ -97,19 +98,9 @@ if option == 'CV':
             # Cria a task usando o agente criado
             analise = criar_task_analise(recrutador)
         
-            st.markdown("## Analisar CV, Revisar e Recomendar")
-            # modelo = st.radio(
-    # "Escolha um modelo:",
-    # ["llama", "mixtral", "gemma"],
-    # captions=[
-        # "llama3-70b-8192",
-        # "mixtral-8x7b-32768",
-        # "gemma-7b-it",
-    # ],)
-     
+            st.markdown("## Analisar CV, Revisar e Recomendar")    
             
             
-
             crew = Crew(
                 agents=[recrutador],
                 tasks=[analise],
@@ -118,7 +109,7 @@ if option == 'CV':
              )
 
 
-            st.markdown("## Modelo: "+ opcao)
+            st.markdown("## Modelo: "+ modelo)
         
 
             if st.button("INICIAR"):
